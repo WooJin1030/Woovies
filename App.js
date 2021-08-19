@@ -20,6 +20,7 @@ const cacheFonts = (fonts) => fonts.map((font) => Font.loadAsync(font));
 
 export default function App() {
   const [isReady, setIsReady] = useState(false);
+
   const loadAssets = () => {
     const images = cacheImages([
       "https://images.unsplash.com/photo-1626631047919-3ebbbb76ddf3?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
