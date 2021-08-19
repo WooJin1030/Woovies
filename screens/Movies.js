@@ -32,7 +32,7 @@ export default () => {
 
   return (
     <View style={{ flex: 1, backgroundColor: "black" }}>
-      <Text style={{ color: "white" }}>{movies.nowPlaying.length}</Text>
+      <Text style={{ color: "white" }}>{movies?.nowPlaying.length}</Text>
     </View>
   );
 };
